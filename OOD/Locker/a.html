@@ -1,10 +1,22 @@
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Pickup Activity Diagram</title>
+  <!-- Include Mermaid.js -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+<body>
 
-<div class="mermaid">
-  flowchart TD
+  <h1>Product Pickup Activity Diagram</h1>
+  
+  <!-- Mermaid Diagram Code -->
+  <div class="mermaid">
+    flowchart TD
       start([Start])
       A[Customer receives OTP]
       B[Customer goes to locker]
@@ -24,4 +36,7 @@
       E --> F
       F --> G
       G --> end
-</div>
+  </div>
+
+</body>
+</html>
