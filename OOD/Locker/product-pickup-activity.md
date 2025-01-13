@@ -1,4 +1,3 @@
-```mermaid
 flowchart TD
     start([Start])
     A[Customer receives OTP]
