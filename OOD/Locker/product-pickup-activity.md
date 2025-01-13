@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     start([Start])
     A[Customer receives OTP]
@@ -8,7 +9,6 @@ flowchart TD
     F[Open locker]
     G[Customer picks up product]
     end([End])
-
     start --> A
     A --> B
     B --> C
