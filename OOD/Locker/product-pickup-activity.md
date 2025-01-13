@@ -8,6 +8,6 @@ graph TD;
     D -- Correct --> E[Search for locker];
     E --> F[Open locker];
     F --> G[Customer picks up product];
-    G --> H[end];
+    G --> H[End];
 
 ```
