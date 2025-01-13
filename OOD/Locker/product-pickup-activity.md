@@ -1,22 +1,13 @@
 ```mermaid
-flowchart TD
-    start([Start])
-    A[Customer receives OTP]
-    B[Customer goes to locker]
-    C[Customer enters code]
-    D{Code validation}
-    E[Search for locker]
-    F[Open locker]
-    G[Customer picks up product]
-    end([End])
+graph TD;
+    start([Start]) --> A[Customer receives OTP];
+    A --> B[Customer goes to locker];
+    B --> C[Customer enters code];
+    C --> D{Code validation};
+    D -- Incorrect --> H;
+    D -- Correct --> E[Search for locker];
+    E --> F[Open locker];
+    F --> G[Customer picks up product];
+    G --> H[end];
 
-    start --> A
-    A --> B
-    B --> C
-    C --> D
-    D -- Incorrect --> C
-    D -- Correct --> E
-    E --> F
-    F --> G
-    G --> end
-
+```
