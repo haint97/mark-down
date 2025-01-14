@@ -7,7 +7,7 @@ graph TD
     B2 -->|No| B3{Is it a graph problem?}
     B3 -->|Yes| C3[DFS, BFS, Union-Find, Topological Sort]
     B3 -->|No| B4{Is it a tree problem?}
-    B4 -->|Yes| C4[DFS (Preorder, Inorder, Postorder), BFS]
+    B4 -->|Yes| C4[DFS Preorder, Inorder, Postorder, BFS]
     B4 -->|No| B5{Is the problem about finding the top-k elements?}
     B5 -->|Yes| C5[Min-Heap, Max-Heap]
     B5 -->|No| B6{Does it involve overlapping subproblems?}
@@ -26,8 +26,8 @@ graph TD
     D1 --> E3[Cycle Detection: Union-Find]
 
     C6 --> D2[DP Techniques]
-    D2 --> F1[Top-Down (Memoization)]
-    D2 --> F2[Bottom-Up (Tabulation)]
+    D2 --> F1[Top-Down Memoization]
+    D2 --> F2[Bottom-Up Tabulation]
 
     C4 --> D3[Tree Traversals]
     D3 --> G1[Level Order Traversal]
@@ -42,4 +42,7 @@ graph TD
     
     C7 --> J1[Maximum/Minimum Subarray Problems]
     C7 --> J2[Longest Substring Without Repeating Characters]
+
+
+
 ```
