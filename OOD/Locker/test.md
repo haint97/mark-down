@@ -1,5 +1,4 @@
 ```mermaid
-```mermaid
 graph TD
     A[Identify Problem Type] --> B1{Is input sorted?}
     B1 -->|Yes| C1[Binary Search or Two Pointers]
@@ -66,7 +65,4 @@ graph TD
     C10 --> M1[Two-Sum, Three-Sum Problems]
     C10 --> M2[Frequency Count]
     C10 --> M3[Sorting Custom Objects]
-```
-
-
 ```
