@@ -14,3 +14,4 @@ graph TD;
     E -- Blocked --> D;
     E -- Out of order --> D;
     E -- Insufficient capacity --> D;
+```
